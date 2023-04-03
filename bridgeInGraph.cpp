@@ -32,9 +32,9 @@ vector<vector<int>> findBridges(vector<vector<int>> &edges, int v, int e) {
     // Write your code here
     unordered_map<int,list<int>> adj;
     for(int i=0;i<e;i++){
-        int u = edges[i][1];
-        int v = edges[i][2];
-
+        int u = edges[i][0];
+        int v = edges[i][1];
+        
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
