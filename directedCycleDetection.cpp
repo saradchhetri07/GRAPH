@@ -38,6 +38,6 @@ int detectCycleInDirectedGraph(int n, vector < pair < int, int >> & edges) {
           return true;
         }
       }
-  
+  }
   return false;
 }
