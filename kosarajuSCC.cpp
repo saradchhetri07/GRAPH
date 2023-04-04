@@ -73,4 +73,5 @@ int stronglyConnectedComponents(int v, vector<vector<int>> &edges)
 		}
 	}
 	return count;
+	
 }
