@@ -71,4 +71,5 @@ int detectCycleInDirectedGraph(int n, vector < pair < int, int >> & edges) {
   //     }
   // }
   // return false;
+  0
 }
